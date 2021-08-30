@@ -26,6 +26,3 @@ class PriceData:
             df.to_csv(path, index=False)
         else:
             df.to_csv(path, index=False, mode="a", header=False)
-
-# price = PriceData()
-# print(price.copyToCsv("monte_carlo/data/stock_data_test7.csv", "AAPL"))
